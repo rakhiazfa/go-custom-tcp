@@ -1,5 +1,5 @@
 GOBASE 		:= $(shell pwd)
-GOBIN			:= $(GOBASE)/bin
+GOBIN		:= $(GOBASE)/bin
 
 build-server:
 	@go build -o $(GOBIN)/server/app ./cmd/server/main.go
