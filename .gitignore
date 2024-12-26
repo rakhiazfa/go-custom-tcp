@@ -1,0 +1,21 @@
+# Binary files
+bin/
+
+# Vendor directory
+vendor/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# Cache, test results, and profiling
+*.out
+*.prof
+
+# Environment files
+.env
+*.local
+app.config.json
+
+# Log files
+*.log
